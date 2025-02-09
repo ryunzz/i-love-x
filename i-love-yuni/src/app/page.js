@@ -48,18 +48,12 @@ export default function Home() {
       {/* Conditionally render the GIF */}
       {isGifLoaded && (
         <div 
-          className="tenor-gif-embed mb-8" // Add margin-bottom to space out the GIF from the text
+          className="tenor-gif-embed" 
           data-postid="7355347396987361923" 
           data-share-method="host" 
           data-aspect-ratio="1.23333" 
           data-width="100%"
-          style={{
-            width: '200px',  // Make sure the GIF is small
-            height: 'auto',   // Keep aspect ratio intact
-            maxWidth: '200px', // Ensure it does not grow too large
-            maxHeight: '200px', // Keep the height small
-            marginBottom: '20px', // Optional: add spacing between the GIF and text
-          }}
+          style={{ width: '100%', maxWidth: '200px', height: 'auto' }}
           ref={gifRef}
         >
           <a href="https://tenor.com/view/mocha-bear-hearts-mocha-and-milk-bears-milk-mocha-bear-gif-love-gif-7355347396987361923">
