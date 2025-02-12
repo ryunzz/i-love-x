@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+.val-container {
+  @apply flex flex-col items-center justify-center h-screen bg-pink-100 font-sans;
+}
+
+button {
+  @apply border-none px-5 py-2 text-lg cursor-pointer m-2 rounded-lg transition-all;
+}
+
+.yesButton {
+  @apply bg-green-500 text-white hover:bg-green-600;
+}
+
+.noButton {
+  @apply bg-red-500 text-white hover:bg-red-600;
+}
+
+/* Typewriter Effect */
+.typewriter-container {
+  @apply text-2xl font-bold text-red-500 mb-4;
+}

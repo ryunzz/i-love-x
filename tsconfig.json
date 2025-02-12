@@ -1,0 +1,19 @@
+{
+  "include": [
+    "./src/**/*",
+    "./types/**/*"  // Ensuring TypeScript includes the types folder in the root directory
+  ],
+  "compilerOptions": {
+    "strict": true,
+    "esModuleInterop": true,
+    "lib": [
+      "dom",
+      "es2015"
+    ],
+    "jsx": "react-jsx",
+    "typeRoots": [
+      "./node_modules/@types",  // Default types folder
+      "./types"  // Custom types folder in the root directory
+    ]
+  }
+}
