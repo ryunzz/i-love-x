@@ -49,7 +49,7 @@ export default function Hero() {
       {!yesPressed && (
         <ReactTyped
           strings={[
-            "Hey Yuni,",
+            "Hey x,",
             "I know you've been waiting for this...",
             "Will you be my Valentine? :3",
           ]}
